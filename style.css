@@ -1,0 +1,117 @@
+ body { 
+ 	background-color: floralwhite;
+ 	color: #401F71;
+ 	font-family:Kreon;
+ 	font-size: 18px;
+
+ }
+
+
+ h1 {
+ 	color:#824D74;
+ 	font-family:Kreon, serif; 
+ 	font-weight: 400;
+ 	letter-spacing: 2px;
+ 	font-size: 40px;
+ 	text-transform: uppercase;
+
+ }
+
+ h2 {
+ 	color:#824D74;
+ 	font-family:Kreon, serif;
+ 	font-weight: light;
+ 	letter-spacing: 2px;
+ 	font-size: 30px;
+
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: #401F71;
+ }
+
+ a:hover {
+ 	color:black;
+ }
+
+ div {
+ 	background: #FBF3D5;
+ 	border: 2px solid #824D74;
+ 	margin: 10px;
+ 	box-shadow: 0px 10px 30px rgba(192, 192, 192, 0.5);
+ 	border-radius: 5px;
+ }
+ img {
+    border-radius: 50%;
+}
+body {
+    text-align: center; /* Center aligns all text within the body */
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.link-box {
+    display: inline-block; /* Ensures the box fits around the link */
+    border: 2px solid #824D74; /* Border styling */
+    padding: 10px; /* Padding around the link */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.link-box a {
+    text-decoration: none; /* Remove underline from the link */
+    color: #401F71; /* Link color */
+}
+
+.link-box a:hover {
+    color: black; /* Hover color */
+}
+.link-box {
+    display: inline-block; /* Assure que la boîte s'adapte autour du lien */
+    border: 2px solid #824D74; /* Style de la bordure */
+    padding: 10px; /* Espacement autour du lien */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition fluide pour le changement de couleur */
+}
+
+.link-box:hover {
+    background-color: #824D74; /* Couleur de fond au survol */
+}
+
+.link-box a {
+    text-decoration: none; /* Supprime le soulignement du lien */
+    color: #401F71; /* Couleur du lien */
+}
+
+.link-box a:hover {
+    color: black; /* Couleur au survol du lien */
+}
+/* Alignement des liens */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 30;
+    text-align: center; /* Alignement au centre des liens */
+}
+
+ul li {
+    display: inline-block; /* Affichage en ligne des éléments de la liste */
+    margin: 0 10px; /* Marge entre les éléments de la liste */
+}
+
+/* Mise en forme des liens */
+ul li a {
+    text-decoration: none; /* Suppression du soulignement */
+    font-size: 35px; /* Taille de police plus grande */
+    color: #401F71; /* Couleur du lien */
+}
+
+ul li a:hover {
+    color: #824D74; /* Couleur du lien au survol */
+}
+
